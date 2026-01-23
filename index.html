@@ -16,7 +16,8 @@
     <meta property="og:description" content="Protect pages and posts with email OTP codes. Passwordless access, user management, and customizable modal." />
     <meta property="og:image" content="img/share.jpg" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/englishextra/img-lightbox@latest/css/img-lightbox.min.css" />
+    <!-- Add to your HTML head -->
+    <link rel="stylesheet" href="https://unpkg.com/simple-lightbox-gallery@1.0.0/dist/simple-lightbox-gallery.css" />
     <link rel="stylesheet" href="css/bs.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -193,65 +194,40 @@
                 <div class="row my-5 py-4" id="Screenshots">
                   <h3 class="fs-3 fw-bold">Screenshots</h3>
 
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-01.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-01.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Default Access Guard modal</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-02.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-02.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Confirm code sent</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-03.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-03.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Error verification</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-04.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-04.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Email access code</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-05.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-05.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">User page</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-06.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-06.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Users list</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-07.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-07.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Option page</figcaption>
-                  </figure>
-                  <figure class="figure mt-2 col-6">
-                    <a href="img/screenshot-08.png" class="img-lightbox-link" aria-hidden="true" rel="lightbox">
-                      <img src="img/screenshot-08.png" class="figure-img img-fluid rounded" alt="One Time Email Access Guard" />
-                    </a>
-                    <figcaption class="figure-caption">Page/post protection</figcaption>
-                  </figure>
-
-                  <!-- <ol>
-                    <li class="mb-5">Default Access Guard modal<img class="img-fluid rounded" src="img/screenshot-01.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Confirm code sent <img class="img-fluid rounded" src="img/screenshot-02.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Error verification <img class="img-fluid rounded" src="img/screenshot-03.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Email access code <img class="img-fluid rounded" src="img/screenshot-04.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">User page <img class="img-fluid rounded" src="img/screenshot-05.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Users list <img class="img-fluid rounded" src="img/screenshot-06.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Option page <img class="img-fluid rounded" src="img/screenshot-07.png" alt="One Time Email Access Guard" /></li>
-                    <li class="mb-5">Page/post protection <img class="img-fluid rounded" src="img/screenshot-08.png" alt="One Time Email Access Guard" /></li>
-                  </ol> -->
+                  <div class="row lg-gallery">
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-01.png" alt="Default Access Guard modal" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Default Access Guard</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-02.png" alt="Confirm code sent" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Confirm code sent</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-03.png" alt="Error verification" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Error verification</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-04.png" alt="Email access code" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Email access code</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-05.png" alt="User page" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">User page</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-06.png" alt="Users list" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Users list</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-07.png" alt="Option page" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Option page</p>
+                    </div>
+                    <div class="col-6 mt-3">
+                      <img class="img-fluid rounded" src="img/screenshot-08.png" alt="Page/post protection" />
+                      <p class="fs-6 text-body-secondary mt-1 mb-0">Page/post protection</p>
+                    </div>
+                  </div>
                 </div>
 
                 <h5 class="fw-bold">One Time Email Access Guard</h5>
@@ -275,9 +251,25 @@
     <!-- Bootstrap JS
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></scrip>
      -->
-    <script src="https://cdn.jsdelivr.net/gh/englishextra/img-lightbox@latest/js/img-lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-lightbox-gallery@1.0.0/dist/simple-lightbox-gallery.js"></script>
     <script>
-      imgLightbox("img-lightbox-link");
+      document.addEventListener("DOMContentLoaded", function () {
+        const gallery = new SimpleLightboxGallery({
+          containerClass: "lg-gallery",
+          showThumbnails: true,
+          showCaption: true,
+          animation: "fade",
+          zoomEnabled: false,
+          // zoomLevel: 2,
+          fullscreen: false,
+          slideshow: false,
+          slideshowSpeed: 3000,
+          // ariaLabels: {
+          //     gallery: 'My custom gallery',
+          //     lightbox: 'Image viewer'
+          // }
+        });
+      });
     </script>
   </body>
 </html>
