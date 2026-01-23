@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Marco Gargano" />
+  <title>🛡️ Email Access Guard by GetApp.it - Secure Access for WordPress</title>
+  <meta name="description"
+    content="Protect pages and posts with email OTP codes. Passwordless access, user management, and customizable modal for WordPress." />
+  <meta name="keywords" content="wordpress, plug-in, wordpress plugin, otp, security, passwordless" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+  <meta property="og:url" content="https://otp-in.github.io/index-en.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="🛡️ Email Access Guard by GetApp.it" />
+  <meta property="og:description"
+    content="Protect pages and posts with email OTP codes. Passwordless access, user management, and customizable modal." />
+  <meta property="og:image" content="https://otp-in.github.io/img/share.jpg" />
+
+  <!-- Google Fonts: Red Hat Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white/80 backdrop-blur">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        🛡️ <span class="brand-highlight">Email Access Guard</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#user-management">Users</a></li>
+          <li class="nav-item"><a class="nav-link" href="#customization">Customization</a></li>
+          <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link btn btn-sm btn-outline-secondary rounded-pill px-3 py-1" href="index-it.html">🇮🇹 IT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <span class="badge bg-light text-primary mb-3 rounded-pill px-3 py-2 fw-normal">WordPress
+              Plugin</span>
+            <h1 class="display-3 fw-bold mb-4">Secure and Simple Access with OTP Codes</h1>
+            <p class="lead text-muted mb-5">Protect WordPress pages and posts with a modern system based on
+              email OTP
+              codes. No passwords to remember, just a secure temporary code.</p>
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="otp-in.zip" class="btn btn-primary btn-lg px-4 rounded-pill" download>Download Now</a>
+              <a href="#features" class="btn btn-outline-secondary btn-lg px-4 rounded-pill">Learn
+                More</a>
+            </div>
+            <p class="mt-4 fw-bold text-primary">🚀 Coming soon to the WordPress Plugin Directory</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What is Section -->
+    <section id="about" class="py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-4">What is <span class="brand-highlight">Email Access Guard</span> by GetApp.it</h2>
+            <p class="text-muted fs-5">
+              <strong><span class="brand-highlight">Email Access Guard</span> by GetApp.it</strong> is a WordPress
+              plugin that allows you to restrict access
+              to pages,
+              posts, or
+              sections of your site by sending a temporary OTP code. Each authorized user receives a code
+              via email
+              valid for 15 minutes.
+            </p>
+            <div class="row mt-5 g-4">
+              <div class="col-md-6">
+                <div class="p-4 bg-light rounded-4 h-100">
+                  <h5 class="fw-bold mb-3">Ideal for:</h5>
+                  <ul class="list-unstyled text-muted mb-0 d-flex flex-column gap-2">
+                    <li>✓ Restricted areas</li>
+                    <li>✓ Premium content</li>
+                    <li>✓ Internal documents</li>
+                    <li>✓ Client resources</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-4 bg-light rounded-4 h-100">
+                  <h5 class="fw-bold mb-3">Benefits:</h5>
+                  <ul class="list-unstyled text-muted mb-0 d-flex flex-column gap-2">
+                    <li>✓ No passwords to remember</li>
+                    <li>✓ Secure temporary access</li>
+                    <li>✓ Easy to configure</li>
+                    <li>✓ Modern design</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights Grid -->
+    <section id="features" class="py-5 bg-light">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 p-3">
+              <div class="card-body">
+                <div
+                  class="icon-box bg-primary-subtle text-primary rounded-circle mb-4 d-inline-flex align-items-center justify-content-center"
+                  style="width: 50px; height: 50px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-people" viewBox="0 0 16 16">
+                    <path
+                      d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.2.2 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                  </svg>
+                </div>
+                <h3 class="h4 fw-bold">User Management</h3>
+                <p class="text-muted">Organize and control authorized users from a single dedicated
+                  section.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 p-3">
+              <div class="card-body">
+                <div
+                  class="icon-box bg-success-subtle text-success rounded-circle mb-4 d-inline-flex align-items-center justify-content-center"
+                  style="width: 50px; height: 50px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-shield-lock" viewBox="0 0 16 16">
+                    <path
+                      d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.118.265 7.31 0 8 0s1.882.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56" />
+                    <path
+                      d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415" />
+                  </svg>
+                </div>
+                <h3 class="h4 fw-bold">Secure Access</h3>
+                <p class="text-muted">Protect pages and content with an advanced and secure OTP system.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4 p-3">
+              <div class="card-body">
+                <div
+                  class="icon-box bg-warning-subtle text-warning rounded-circle mb-4 d-inline-flex align-items-center justify-content-center"
+                  style="width: 50px; height: 50px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-sliders" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1z" />
+                  </svg>
+                </div>
+                <h3 class="h4 fw-bold">Customizable</h3>
+                <p class="text-muted">Adapt the system to your needs by modifying rules, design, and
+                  modes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Experience Section -->
+    <section id="user-experience" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">Seamless User Experience</h2>
+          <p class="text-muted lead">A simple and secure flow for your visitors.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4">
+              <img src="img/01-screen-home.png" class="card-img-top rounded-top-4" alt="Access Modal" loading="lazy">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">1. Access Request</h5>
+                <p class="text-muted small">User sees a clean, customizable modal.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4">
+              <img src="img/04-screen-email.png" class="card-img-top rounded-top-4" alt="OTP Email" loading="lazy">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">2. Email OTP</h5>
+                <p class="text-muted small">Instant email with a temporary code.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm rounded-4">
+              <img src="img/03-screen-success.png" class="card-img-top rounded-top-4" alt="Access Granted"
+                loading="lazy">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">3. Access Granted</h5>
+                <p class="text-muted small">Secure access to the content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Management Section -->
+    <section id="user-management" class="py-5 bg-light">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0 p-5">
+            <h2 class="display-6 fw-bold mb-4">Advanced User Management</h2>
+            <div class="d-flex flex-column gap-4">
+              <div class="feature-item">
+                <h4 class="fw-bold">User Creation</h4>
+                <p class="text-muted">Add users with name, surname, email, and phone. Enable or disable access with a
+                  simple switch.</p>
+              </div>
+              <div class="feature-item">
+                <h4 class="fw-bold">Access Duration</h4>
+                <p class="text-muted">Decide session duration: 15 minutes, 1 hour, 1 day, or unlimited. Set automatic
+                  expirations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/06-admin-users.png" alt="User Dashboard" class="img-fluid rounded-4 shadow" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Protection Section -->
+    <section id="protection" class="py-5">
+      <div class="container py-5">
+        <div class="row align-items-center flex-row-reverse">
+          <div class="col-lg-6 mb-4 mb-lg-0 p-5">
+            <h2 class="display-6 fw-bold mb-4">Selective Protection</h2>
+            <div class="d-flex flex-column gap-4">
+              <div class="feature-item">
+                <h4 class="fw-bold">Granular Protection</h4>
+                <p class="text-muted">Enable OTP protection only where needed, directly from the WordPress editor
+                  sidebar.</p>
+              </div>
+              <div class="feature-item">
+                <h4 class="fw-bold">Authorizations</h4>
+                <p class="text-muted">Select which users can access content, individually or in groups.</p>
+              </div>
+              <div class="feature-item">
+                <h4 class="fw-bold">Visual Indicators</h4>
+                <p class="text-muted">Intuitive icons immediately show which content is protected in the pages list.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/08-admin-post.png" alt="WordPress Editor Protection" class="img-fluid rounded-4 shadow"
+              loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customization Section -->
+    <section id="customization" class="py-5 bg-light">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h2 class="display-6 fw-bold mb-4">Complete Customization</h2>
+            <p class="text-muted lead mb-4">Make the access modal perfectly integrated with your brand.</p>
+
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex align-items-start">
+
+                <div>
+                  <h5 class="fw-bold mb-1">Colors and Style</h5>
+                  <p class="text-muted small">Modify overlay, background, text colors, and opacity.</p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start">
+
+                <div>
+                  <h5 class="fw-bold mb-1">Messages</h5>
+                  <p class="text-muted small">Customize all texts without touching code.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="img/07-admin-option.png" alt="Customization Options" class="img-fluid rounded-4 shadow"
+              loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download / CTA Section -->
+    <section id="download" class="py-5 bg-dark text-white">
+      <div class="container py-5 text-center">
+        <h2 class="display-5 fw-bold mb-4">Ready to protect your content?</h2>
+        <p class="lead text-white-50 mb-5">Download <span class="brand-highlight">Email Access Guard</span> by GetApp.it
+          and start managing your access
+          securely and modernly.
+        </p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <a href="otp-in.zip" class="btn btn-primary btn-lg px-5 rounded-pill" download>Download Plugin</a>
+          <a href="https://github.com/OTP-in/plugin" class="btn btn-outline-light btn-lg px-5 rounded-pill"
+            target="_blank">GitHub Repository</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 bg-black text-white-50 text-center">
+    <div class="container">
+      <small>&copy; 2025 <span class="brand-highlight">Email Access Guard</span> by GetApp.it. Developed by Marco
+        Gargano.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
