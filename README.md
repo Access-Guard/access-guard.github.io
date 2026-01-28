@@ -126,19 +126,6 @@ You'll need to enter the users in the appropriate section, providing the desired
 
 ---
 
-## Screenshots
-
-1. Default Access Guard modal
-2. Confirm code sent
-3. Error verification
-4. Email access code
-5. User page
-6. Users list
-7. Option page
-8. Page/post protection
-
----
-
 ## Changelog
 
 ### 1.1.0
