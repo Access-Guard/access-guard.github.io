@@ -3,7 +3,9 @@
   background: #00ff00;
   border-radius: 4px;
 }
-
+a {
+  transition: all 0.4s;
+}
 .lightbox {
   z-index: 1100;
 }
