@@ -9,3 +9,11 @@ a {
 .lightbox {
   z-index: 1100;
 }
+#list-links .list-group-item.active {
+  color: #00ff00 !important;
+  background-color: transparent;
+  border-color: initial;
+}
+#list-links .list-group-item.active path {
+  fill: #00ff00;
+}
