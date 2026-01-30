@@ -13,7 +13,7 @@ Protect pages and posts with email-delivered verification codes. Secure, passwor
 
 ---
 
-## Description
+## 📝 Description
 
 One Time Email Access Guard **protects your WordPress pages and posts** using email-delivered verification codes. Each authorized user receives a time-limited code, allowing secure access without traditional passwords.
 
@@ -44,6 +44,7 @@ https://www.youtube.com/watch?v=XE4d496uPUc
 ### 🔐 Advanced Security
 
 - Passwordless access via email verification codes
+- Email based One Time Password (OTP) access
 - User verification with name and phone number
 - Custom verification codes expiration
 - Secure access tokens via cookies
@@ -94,7 +95,8 @@ https://www.youtube.com/watch?v=XE4d496uPUc
 
 ## Installation
 
-1. Search **"One Time Email Access Guard"** and install it, or manually upload the `one-time-email-access-guard` folder to `/wp-content/plugins/`
+1. Search **"One Time Email Access Guard"** from the Plugins page and install it.
+   Otherwise manually upload the `one-time-email-access-guard` folder to `/wp-content/plugins/`
 2. Activate the plugin from the **Plugins** menu
 3. Go to **Access Guard** in your admin menu
 4. Create users with their contact details
