@@ -17,3 +17,15 @@ a {
 #list-links .list-group-item.active path {
   fill: #00ff00;
 }
+
+/* Define a transition duration during page visits */
+html.is-changing .transition-fade {
+  transition: all 0.25s;
+  margin-top: 0;
+  opacity: 1;
+}
+/* Define the styles for the unloaded pages */
+html.is-animating .transition-fade {
+  margin-top: 1rem;
+  opacity: 0;
+}
