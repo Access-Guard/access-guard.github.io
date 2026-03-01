@@ -18,6 +18,38 @@ a {
   fill: #00ff00;
 }
 
+@media screen and (max-width: 1200px) {
+  #cookiescript_badge {
+    display: none !important;
+  }
+  .list-group-flush {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #222;
+  }
+  .list-group-flush > .list-group-item {
+    width: 14%;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    text-align: center;
+    height: 60px;
+    border: none;
+    border-top: solid 1px #555;
+    padding-top: 1.2rem;
+  }
+  .list-group-flush > .list-group-item::first-letter {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+}
+
 /* Define a transition duration during page visits */
 html.is-changing .transition-fade {
   transition: all 0.25s;
