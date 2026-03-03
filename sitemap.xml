@@ -1,15 +1,43 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://access-guard.github.io/</loc>
-  <lastmod>2026-01-28T22:20:10+00:00</lastmod>
-</url>
-
-
+  <url>
+    <loc>https://access-guard.github.io/</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/description.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/secure.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/features.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/install.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/screenshot.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://access-guard.github.io/faqs.html</loc>
+    <lastmod>2026-03-01T22:41:27+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>

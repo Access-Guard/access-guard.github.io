@@ -17,6 +17,42 @@ a {
 #list-links .list-group-item.active path {
   fill: #00ff00;
 }
+#list-links .list-group-item:not(:first-child):hover {
+  padding-left: 1.5rem;
+}
+#list-links .list-group-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  width: 0%;
+  height: 1px;
+  background-color: #00ff00;
+  transition: all 1s;
+}
+#list-links .list-group-item:not(.active):hover::before {
+  width: 100%;
+}
+/* #description a[href*="description"] {
+  color: #00ff00;
+}
+#secure a[href*="secure"] {
+  color: #00ff00;
+}
+#features a[href*="features"] {
+  color: #00ff00;
+}
+#features a[href*="features"] {
+  color: #00ff00;
+}
+#screenshot a[href*="screenshot"] {
+  color: #00ff00;
+}
+#faqs a[href*="faqs"] {
+  color: #00ff00;
+} */
 
 @media screen and (max-width: 1200px) {
   #cookiescript_badge {
@@ -59,5 +95,15 @@ html.is-changing .transition-fade {
 /* Define the styles for the unloaded pages */
 html.is-animating .transition-fade {
   margin-top: 1rem;
+  opacity: 0;
+}
+
+html.is-changing .nav-select {
+  transition: all 1.5s;
+  padding-left: 1rem;
+  opacity: 1;
+}
+html.is-animating .nav-select {
+  padding-left: 1.5rem;
   opacity: 0;
 }
