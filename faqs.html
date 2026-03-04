@@ -39,8 +39,8 @@
       <main>
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 col-md-3 col-sm-4 offset-lg-0 offset-xl-1 order-last order-sm-first">
-              <div class="sticky-top py-4 mb-5">
+            <div class="mt-4 mb-0col-lg-2 col-md-3 col-sm-4 offset-lg-0 offset-xl-1">
+              <div class="sticky-top py-4 mb-0">
                 <svg class="rounded-5 img-fluid w-100 my-4 d-none d-sm-block" width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="128" height="128" fill="#28323c" />
                   <path
@@ -54,7 +54,7 @@
                   />
                 </svg>
 
-                <div id="list-links" class="list-group list-group-flush">
+                <div id="list-links" class="list-group list-group-flush mb-0 mb-xl-5">
                   <a class="list-group-item list-group-item-action" href="/" style="color: #00ff00">
                     <svg class="mb-1 me-2 ms-1" width="20" height="20" viewBox="0 0 60 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -117,7 +117,7 @@
                     FAQs</a
                   >
                 </div>
-                <h6 class="mt-5 d-flex mb-1 text-uppercase fw-bold">
+                <h6 class="d-flex mb-1 text-uppercase fw-bold">
                   <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 122.52 122.523">
                     <g fill="#fff">
                       <path d="m8.708 61.26c0 20.802 12.089 38.779 29.619 47.298l-25.069-68.686c-2.916 6.536-4.55 13.769-4.55 21.388z" />
@@ -157,7 +157,7 @@
                     Free WordPress Plugin
                   </div>
                   <h1 class="text-primary fs-1 fw-bold mb-0 lh-1 mt-2">
-                    <svg class="float-start img-fluid me-2 rounded-5 d-sm-none" width="64" height="64" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="float-start img-fluid me-2 rounded-5 d-sm-none" width="70" height="70" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="128" height="128" fill="#28323c" />
                       <path
                         d="M63.9873 32C64.0546 32 64.1508 32.0176 64.2617 32.0762L64.5049 32.2041L64.7666 32.2861L88.0469 39.5713C89.6247 40.4357 91.0077 42.4527 91 45.125C90.97 52.066 89.7251 61.917 85.918 71.4307C82.1176 80.9275 75.8398 89.9158 65.8369 95.5059H65.8359C64.6582 96.1643 63.3418 96.1643 62.1641 95.5059H62.1631C52.1541 89.9157 45.8769 80.9271 42.0781 71.4307C38.5105 62.512 37.1956 53.2968 37.0205 46.46L37 45.125C36.9923 42.4532 38.3746 40.436 39.9521 39.5713L63.2217 32.2861L63.4834 32.2041L63.7256 32.0762C63.8463 32.0124 63.9308 32 63.9873 32Z"
@@ -175,7 +175,7 @@
               </div>
 
               <div class="transition-fade pb-4">
-                <div class="mb-5 pb-5 pt-4" id="Faq">
+                <div class="mt-4 mb-0" id="Faq">
                   <h3 class="fs-3 fw-bold">
                     <svg class="mb-1 me-2" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#00ff00" viewBox="0 0 256 256">
                       <path
@@ -251,6 +251,24 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const swup = new Swup();
+        let gallery;
+
+        function initGallery() {
+          if (gallery?.destroy) gallery.destroy();
+          gallery = new SimpleLightboxGallery({
+            containerClass: "lg-gallery",
+            showThumbnails: true,
+            showCaption: true,
+            animation: "fade",
+            zoomEnabled: false,
+            fullscreen: false,
+            slideshow: false,
+            slideshowSpeed: 4000,
+          });
+        }
+
+        initGallery();
+        swup.hooks.on("content:replace", initGallery);
       });
     </script>
   </body>
