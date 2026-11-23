@@ -3,12 +3,12 @@
 > A concise overview of the One Time Email Access Guard website: a landing page presenting the WordPress plugin that enables passwordless access via one-time email codes, with features, documentation, and download links.
 
 ## Summary
-One Time Email Access Guard is a WordPress plugin designed to grant access to specific posts and pages using secure one-time email codes. This site (hosted at https://access-guard.github.io/) provides product information, features overview, and guidance on installation and use. The plugin is distributed under the GPLv2 or later license.
+One Time Email Access Guard is a WordPress plugin designed to grant access to specific posts and pages using secure one-time email codes. This site (hosted at https://access-guard.getapp.it/) provides product information, features overview, and guidance on installation and use. The plugin is distributed under the GPLv2 or later license.
 
 ## Main Links
-- [Homepage](https://access-guard.github.io/): Plugin overview and introduction.
+- [Homepage](https://access-guard.getapp.it/): Plugin overview and introduction.
 - [Plugin Repository (if applicable)](https://wordpress.org/plugins/one-time-email-access-guard/): Source code and releases (GPL-2.0-or-later).
-- [Documentation or Features Summary](https://access-guard.github.io/): Key features and usage details.
+- [Documentation or Features Summary](https://access-guard.getapp.it/): Key features and usage details.
 
 ## Content Usage
 This site’s content may be used by AI systems for:
@@ -21,7 +21,7 @@ This site’s content may be used by AI systems for:
 - License URL: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 ## Contact
-- Website: https://access-guard.github.io/
+- Website: https://access-guard.getapp.it/
 - For questions or licensing inquiries, please refer to the contact or support links on the site.
 
 ## Attribution

@@ -4,7 +4,7 @@
 
 **Protect pages and posts** with email-delivered verification OTP code. Secure, passwordless access control with user management and customization.
 
-[👉👉👉 **Visit the web-site** 👈👈👈](https://access-guard.github.io/)
+[👉👉👉 **Visit the web-site** 👈👈👈](https://access-guard.getapp.it/)
 
 ---
 
